@@ -12,7 +12,7 @@ const Header = () => {
     <header className="bg-secondary mb-4 py-2 flex-row align-center">
       <div className="container flex-row justify-space-between-lg justify-center align-center">
         <Link to="/">
-        <img src={logoImage}  style={{ width: "30%"}} alt="codersOnly" />
+        <img src={logoImage}  style={{ width: "200%"}} alt="lipscomb" />
         </Link>
 
         <nav className="text-center">
