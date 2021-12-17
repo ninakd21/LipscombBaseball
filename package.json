@@ -1,0 +1,27 @@
+{
+  "name": "codersonly",
+  "version": "1.0.0",
+  "description": "<!-- TABLE OF CONTENTS --> <details open=\"open\">   <summary>Table of Contents</summary>   <ol>     <li>       <a href=\"#about-the-project\">About The Project</a>       <ul>         <li><a href=\"#built-with\">Built With</a></li>       </ul>     </li>     <li>       <a href=\"#getting-started\">Getting Started</a>       <ul>         <li><a href=\"#prerequisites\">Prerequisites</a></li>         <li><a href=\"#installation\">Installation</a></li>       </ul>     </li>     </li>   </ol> </details>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "seed": "cd server && npm run seed",
+    "build": "cd client && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miguel-Con-Queso/codersOnly.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Miguel-Con-Queso/codersOnly/issues"
+  },
+  "homepage": "https://github.com/Miguel-Con-Queso/codersOnly#readme",
+  "devDependencies": {
+    "concurrently": "^6.2.1"
+  }
+}
